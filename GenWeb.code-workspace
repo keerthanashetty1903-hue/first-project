@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Desktop/GenWeb"
+		},
+		{
+			"path": "../../../Desktop/vitc"
+		},
+		{
+			"path": "../../../Desktop/C LANG"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GenWeb"
+	}
+}

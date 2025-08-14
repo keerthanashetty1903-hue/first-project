@@ -13,4 +13,12 @@ def guess(x):
 
     print('yay you guessed it right')
 
+def user(x):
+    low=x
+    high=1
+    feedback=''
+    while feedback !='c':
+        guess= random.randint
+        feedback=input("")
+
 guess(10)
