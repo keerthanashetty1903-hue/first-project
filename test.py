@@ -19,6 +19,12 @@ def user(x):
     feedback=''
     while feedback !='c':
         guess= random.randint
-        feedback=input("")
+        feedback=input(f"is the {guess}input too (H) or (L) or is it correct".lower)
+        if feedback == 'h':
+            high=guess-1
+        elif feedback=='l':
+            low=guess+1
+        
+    print("yay congrats")
 
 guess(10)

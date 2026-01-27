@@ -4,7 +4,10 @@ def user(x):
     high=x
     feedback=''
     while feedback !='c':
-        guess = random.randint(low,high)
+        if low !=high:
+            guess = random.randint(low,high)
+        else:
+            guess=low
         feedback=input(f"is the {guess}input too (H) or (L) or is it (C)").lower()
         if feedback == 'h':
             high=guess-1
